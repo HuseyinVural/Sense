@@ -20,7 +20,10 @@ class ContentDetailViewController: UIViewController {
         navigationController?.navigationBar.isHidden = false
         contentTitle.text = content?.title
         contentDesc.text = content?.content
-        contentDate.text = content?.date
-        contentImage.kf.setImage(with: URL(string: content!.images.large)!)
+        contentDate.text = Date.from(unixTime: content?.date)
+        
+        if let image = content?.images.large, let url = URL(string: image) {
+            contentImage.kf.setImage(with: url)
+        }
     }
 }
