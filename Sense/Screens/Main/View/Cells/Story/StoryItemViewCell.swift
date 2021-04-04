@@ -8,15 +8,6 @@
 import UIKit
 import Kingfisher
 
-protocol ConfigurableCell: AnyObject {
-    func configure(_ data: Any?, size: CGSize)
-}
-
-protocol SelectableCell: AnyObject {
-    var didSelect: ((_ info: Any?) -> Void)? { get set }
-}
-
-
 class StoryItemViewCell: UICollectionViewCell, ConfigurableCell {
     
     @IBOutlet private var ratio: NSLayoutConstraint?
