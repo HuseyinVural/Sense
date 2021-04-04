@@ -15,6 +15,7 @@ class StoryItemViewCell: UICollectionViewCell, ConfigurableCell {
     @IBOutlet private weak var contentSubtitle: UILabel!
     @IBOutlet private weak var cover: UIImageView!
     @IBOutlet private weak var maxWidth: NSLayoutConstraint!
+    @IBOutlet private weak var imageCapsule: UIView!
     
 
     func configure(_ data: Any?, size: CGSize) {
@@ -26,7 +27,7 @@ class StoryItemViewCell: UICollectionViewCell, ConfigurableCell {
         contentTitle.text = info.title
         contentSubtitle.text = info.subtitle
         maxWidth.constant = size.width
-        
         ratio?.isActive = info.type == .story
+        imageCapsule.layer.applySketchShadow(color: UIColor.black, alpha: 0.15, x: 0, y: 16)
     }
 }

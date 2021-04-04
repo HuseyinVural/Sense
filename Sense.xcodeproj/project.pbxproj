@@ -29,6 +29,7 @@
 		060BCBA0261A5B8400169F02 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060BCB9F261A5B8400169F02 /* Date+Extension.swift */; };
 		060BCBA3261A5EBE00169F02 /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060BCBA2261A5EBE00169F02 /* ConfigurableCell.swift */; };
 		060BCBA6261A5EEF00169F02 /* SelectableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060BCBA5261A5EEF00169F02 /* SelectableCell.swift */; };
+		060BCBA9261A610F00169F02 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060BCBA8261A610F00169F02 /* CALayer+Extension.swift */; };
 		06F1AB5A2618860C00308315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F1AB592618860C00308315 /* AppDelegate.swift */; };
 		06F1AB5C2618860C00308315 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F1AB5B2618860C00308315 /* SceneDelegate.swift */; };
 		06F1AB612618860C00308315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F1AB5F2618860C00308315 /* Main.storyboard */; };
@@ -70,6 +71,7 @@
 		060BCB9F261A5B8400169F02 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		060BCBA2261A5EBE00169F02 /* ConfigurableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
 		060BCBA5261A5EEF00169F02 /* SelectableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableCell.swift; sourceTree = "<group>"; };
+		060BCBA8261A610F00169F02 /* CALayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
 		06F1AB562618860C00308315 /* Sense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F1AB592618860C00308315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06F1AB5B2618860C00308315 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -195,10 +197,11 @@
 		060BCB68261A3E4000169F02 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				060BCBA8261A610F00169F02 /* CALayer+Extension.swift */,
 				060BCB7B261A3F5E00169F02 /* Data+Extension.swift */,
+				060BCB9F261A5B8400169F02 /* Date+Extension.swift */,
 				060BCB78261A3F4A00169F02 /* Encodable+Encodable.swift */,
 				060BCB46261A268F00169F02 /* UIView+Extension.swift */,
-				060BCB9F261A5B8400169F02 /* Date+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -472,6 +475,7 @@
 				060BCB96261A409000169F02 /* MainPageContracts.swift in Sources */,
 				060BCB6D261A3EE200169F02 /* Meditation.swift in Sources */,
 				060BCB76261A3F2700169F02 /* Image.swift in Sources */,
+				060BCBA9261A610F00169F02 /* CALayer+Extension.swift in Sources */,
 				06F1ABBB2619C78900308315 /* MainPageInteractor.swift in Sources */,
 				060BCB47261A268F00169F02 /* UIView+Extension.swift in Sources */,
 				060BCB73261A3F0C00169F02 /* MainResponse.swift in Sources */,

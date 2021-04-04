@@ -101,6 +101,7 @@
                 <outlet property="contentSubtitle" destination="TqR-t4-3cq" id="a3g-ZT-8kq"/>
                 <outlet property="contentTitle" destination="ASV-eS-XOQ" id="PTm-Ts-gTM"/>
                 <outlet property="cover" destination="25P-CY-kGq" id="A9o-DV-hEn"/>
+                <outlet property="imageCapsule" destination="2o3-GZ-aa7" id="QDn-CB-U7i"/>
                 <outlet property="maxWidth" destination="Eb9-TY-wfb" id="pyl-xJ-fDq"/>
                 <outlet property="ratio" destination="FL2-Lv-tN9" id="gsK-Qf-7bq"/>
             </connections>
