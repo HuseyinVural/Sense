@@ -230,10 +230,10 @@ Perfectly balanced. As all things shouldbe.</string>
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="O5b-FW-jsX" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gni-k7-g7a">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="gni-k7-g7a">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.1171304956" green="0.14939224719999999" blue="0.26306766269999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.11372549019607843" green="0.11372549019607843" blue="0.11372549019607843" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
