@@ -19,11 +19,11 @@ protocol SelectableCell: AnyObject {
 
 class StoryItemViewCell: UICollectionViewCell, ConfigurableCell {
     
-    @IBOutlet var ratio: NSLayoutConstraint?
-    @IBOutlet weak var contentTitle: UILabel!
-    @IBOutlet weak var contentSubtitle: UILabel!
-    @IBOutlet weak var cover: UIImageView!
-    @IBOutlet weak var maxWidth: NSLayoutConstraint!
+    @IBOutlet private var ratio: NSLayoutConstraint?
+    @IBOutlet private weak var contentTitle: UILabel!
+    @IBOutlet private weak var contentSubtitle: UILabel!
+    @IBOutlet private weak var cover: UIImageView!
+    @IBOutlet private weak var maxWidth: NSLayoutConstraint!
     
 
     func configure(_ data: Any?, size: CGSize) {

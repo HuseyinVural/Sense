@@ -8,7 +8,7 @@
 import UIKit
 
 class SectionHeader: UICollectionViewCell, ConfigurableCell {
-    @IBOutlet weak var headerTitle: UILabel!
+    @IBOutlet private weak var headerTitle: UILabel!
     
     func configure(_ data: Any?, size: CGSize) {
         guard let title = data as? String else {

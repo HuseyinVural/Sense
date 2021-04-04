@@ -9,7 +9,7 @@ import UIKit
 
 class MeditationListCell: UICollectionViewCell, SelectableCell {
     
-    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet private weak var collectionView: UICollectionView!
     var collectionManager: CollectionManager? = CollectionManager()
     
     var didSelect: ((Any?) -> Void)?
