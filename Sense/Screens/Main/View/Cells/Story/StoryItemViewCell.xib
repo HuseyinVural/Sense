@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad12_9" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="StoryItemViewCell" id="VK1-Np-leo" customClass="StoryItemViewCell" customModule="Sense" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="231" height="294"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="231" height="294"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c2C-4r-giC" userLabel="Content">
+                        <rect key="frame" x="0.0" y="0.0" width="231" height="294"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2o3-GZ-aa7" userLabel="ImageArea">
+                                <rect key="frame" x="0.0" y="0.0" width="206" height="206"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="25P-CY-kGq">
+                                        <rect key="frame" x="0.0" y="0.0" width="206" height="206"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="25P-CY-kGq" firstAttribute="leading" secondItem="2o3-GZ-aa7" secondAttribute="leading" id="AS8-er-zd6"/>
+                                    <constraint firstAttribute="trailing" secondItem="25P-CY-kGq" secondAttribute="trailing" id="AWn-Mx-rxy"/>
+                                    <constraint firstAttribute="width" secondItem="2o3-GZ-aa7" secondAttribute="height" multiplier="1:1" priority="999" id="FL2-Lv-tN9"/>
+                                    <constraint firstItem="25P-CY-kGq" firstAttribute="top" secondItem="2o3-GZ-aa7" secondAttribute="top" id="Xnj-r1-7DQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="25P-CY-kGq" secondAttribute="bottom" id="qj5-j4-qj6"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" text="Sleep Well" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ASV-eS-XOQ">
+                                <rect key="frame" x="0.0" y="216" width="206" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="PE1-qh-x40"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TqR-t4-3cq">
+                                <rect key="frame" x="0.0" y="241" width="206" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="EeH-fY-Y1X"/>
+                                </constraints>
+                                <string key="text">A dreamy sleep
+</string>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="0.69727808115433676" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ASV-eS-XOQ" firstAttribute="leading" secondItem="c2C-4r-giC" secondAttribute="leading" id="0rd-cK-9ET"/>
+                            <constraint firstItem="TqR-t4-3cq" firstAttribute="trailing" secondItem="2o3-GZ-aa7" secondAttribute="trailing" id="4An-Hg-CW8"/>
+                            <constraint firstItem="TqR-t4-3cq" firstAttribute="leading" secondItem="c2C-4r-giC" secondAttribute="leading" id="CRN-xZ-8RT"/>
+                            <constraint firstAttribute="width" constant="231" id="Eb9-TY-wfb"/>
+                            <constraint firstItem="TqR-t4-3cq" firstAttribute="top" secondItem="ASV-eS-XOQ" secondAttribute="bottom" constant="1" id="J1n-Fl-xwX"/>
+                            <constraint firstItem="ASV-eS-XOQ" firstAttribute="trailing" secondItem="2o3-GZ-aa7" secondAttribute="trailing" id="aN5-Jd-EI1"/>
+                            <constraint firstItem="ASV-eS-XOQ" firstAttribute="top" secondItem="2o3-GZ-aa7" secondAttribute="bottom" constant="10" id="biR-OX-L88"/>
+                            <constraint firstAttribute="trailing" secondItem="2o3-GZ-aa7" secondAttribute="trailing" constant="14" id="db0-0I-DWj">
+                                <variation key="heightClass=regular-widthClass=regular" constant="25"/>
+                            </constraint>
+                            <constraint firstItem="2o3-GZ-aa7" firstAttribute="top" secondItem="c2C-4r-giC" secondAttribute="top" id="fXw-p8-zun"/>
+                            <constraint firstAttribute="bottom" secondItem="TqR-t4-3cq" secondAttribute="bottom" priority="900" constant="32" id="hJI-dC-1iD">
+                                <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                            </constraint>
+                            <constraint firstItem="2o3-GZ-aa7" firstAttribute="leading" secondItem="c2C-4r-giC" secondAttribute="leading" id="rRe-jC-2GH"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="mB6-Me-771"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="c2C-4r-giC" secondAttribute="bottom" id="TWy-jW-XC0"/>
+                <constraint firstItem="c2C-4r-giC" firstAttribute="leading" secondItem="VK1-Np-leo" secondAttribute="leading" id="aMG-15-at5"/>
+                <constraint firstAttribute="trailing" secondItem="c2C-4r-giC" secondAttribute="trailing" id="o3F-Jy-Ivn"/>
+                <constraint firstItem="c2C-4r-giC" firstAttribute="top" secondItem="VK1-Np-leo" secondAttribute="top" id="xif-Y1-lve"/>
+            </constraints>
+            <size key="customSize" width="231" height="294"/>
+            <connections>
+                <outlet property="contentSubtitle" destination="TqR-t4-3cq" id="a3g-ZT-8kq"/>
+                <outlet property="contentTitle" destination="ASV-eS-XOQ" id="PTm-Ts-gTM"/>
+                <outlet property="cover" destination="25P-CY-kGq" id="A9o-DV-hEn"/>
+                <outlet property="maxWidth" destination="Eb9-TY-wfb" id="pyl-xJ-fDq"/>
+                <outlet property="ratio" destination="FL2-Lv-tN9" id="gsK-Qf-7bq"/>
+            </connections>
+            <point key="canvasLocation" x="156.73828125" y="209.95607613469983"/>
+        </collectionViewCell>
+    </objects>
+</document>
