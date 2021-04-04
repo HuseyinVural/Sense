@@ -36,10 +36,11 @@ final class MainPageSectionParser {
     }
     
     private func parseBanner(_ hasBanner: Bool) -> [SectionViewModel] {
-        var sections: [SectionViewModel] = []
-        if !hasBanner { return [] }
-        sections.append(SectionViewModel(type: .banner))
-        return sections
+        if hasBanner {
+            return [SectionViewModel(type: .banner)]
+        } else {
+            return []
+        }
     }
     
     private func parseStories(_ items: [ContentInfo]) -> [SectionViewModel] {
