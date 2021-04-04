@@ -9,7 +9,7 @@ import Foundation
 
 protocol MainPageInteractorInputProtocol {
     var output: MainPageInteractorOutputProtocol? { get set }
-    func callMainDetail()
+    func fetchMainDetail()
 }
 
 protocol MainPageInteractorOutputProtocol: AnyObject {

@@ -16,7 +16,7 @@ public final class MainPageInteractor: MainPageInteractorInputProtocol {
         self.repository = repository
     }
     
-    public func callMainDetail() {
+    public func fetchMainDetail() {
         repository.main { [weak self] response in
             self?.output?.gotMainDetail(response)
         } fail: { [weak  self] error in

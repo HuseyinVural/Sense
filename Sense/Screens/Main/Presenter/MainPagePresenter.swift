@@ -16,7 +16,7 @@ class MainPagePresenter: MainPagePresentation {
 
 extension MainPagePresenter: MainPagePresentationInput {
     func viewDidLoad() {
-        interactor?.callMainDetail()
+        interactor?.fetchMainDetail()
     }
     
     func selectItem(_ data: Any?) {
