@@ -24,7 +24,7 @@ extension MainPagePresenter: MainPagePresentationInput {
             return
         }
         
-        router?.showContentDetai(content)
+        router?.showContentDetail(content)
     }
 }
 

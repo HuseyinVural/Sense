@@ -35,5 +35,5 @@ protocol MainPageRoutable {
     var viewController: MainPageViewController? { get set }
 
     static func assembleModule() -> MainPageViewController
-    func showContentDetai(_ content: ContentInfo)
+    func showContentDetail(_ content: ContentInfo)
 }

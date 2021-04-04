@@ -16,7 +16,7 @@ final class MainPageRouter: MainPageRoutable {
         fatalError()
     }
     
-    func showContentDetai(_ content: ContentInfo) {
+    func showContentDetail(_ content: ContentInfo) {
         let detail = ContentDetailViewController(nibName: "ContentDetailViewController", bundle: nil)
         detail.content = content
         viewController?.navigationController?.pushViewController(detail, animated: true)
