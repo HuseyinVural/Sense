@@ -61,7 +61,7 @@ struct SectionViewModel {
         let width = size.width
         let isIpad = UIDevice.current.userInterfaceIdiom == .pad
 
-        if isIpad && width > 768 {
+        if UIDevice.current.orientation.isLandscape && isIpad && width > 768 {
             return 6
         } else if width > 650 {
             return 4
