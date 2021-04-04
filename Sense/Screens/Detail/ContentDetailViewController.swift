@@ -26,4 +26,9 @@ class ContentDetailViewController: UIViewController {
             contentImage.kf.setImage(with: url)
         }
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.navigationBar.isHidden = false
+    }
 }
